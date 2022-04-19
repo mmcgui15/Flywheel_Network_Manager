@@ -1,0 +1,59 @@
+manage network of flywheels
+monitor and track electrical I/O
+interface with electric grids
+*track efficiency of the flywheels
+
+
+Notes/Questions
+
+external power input (current&voltage)
+    how does the flywheel speed up
+power output due to load (current&voltage)
+    how does the flywheel output power
+
+
+Where are the flywheels located? Are they hooked up to a single powerplant?
+
+Does the motor act as the generator or is there an input motor and a constant generator that allows for voltage smoothing?
+
+Is power input/draw distributed evenly amongst flywheels in the system?
+
+Variable inertia flywheels.
+
+Is power loss due to precession a concern?
+    How much power is lost and what is the torque on the (magnetic) bearing. 
+    Program wheel orientation in relation to earth's axis?
+
+Have a dedicated computer with this program at every flywheel site or at a
+central hub with flywheel network access to sensors across multiple sites? Both?
+    -Single vs multiple networks per .fly file.
+    -Multiple networks open simultaneously?
+
+
+TO DO
+file stream to save settings .fly
+    -2 files:
+        1:list of recent files, gui window locations, open up most recent. only 1 instance of this file!
+        2:individual flywheel networks, can have multiple files.
+
+add units of measurement, check mathematical calculations
+
+commit files
+
+incorporate sensor
+    arduino serial library or direct sensor without microcontroller.
+        program usb serial data transfer?
+
+flywheel efficiency(ideal power I/O based on velocity reading vs I/O sensor power readings)
+
+error logging system
+    critical errors and failsafes
+    error tolerances
+
+image rendering
+    helix logo
+    flywheel buttons
+        -draggable organization
+
+
+
