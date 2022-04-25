@@ -115,7 +115,7 @@ int Show_Flywheel_Network(std::vector <flywheel>& fb, flywheel& fw)
     }
 
     //Show flywheel network information
-    ImGui::Text("Total Stored Power = %.5f MW", total_stored_energy(flywheel_bank));
+   // ImGui::Text("Total Stored Power = %.5f MW", total_stored_energy(flywheel_bank));
 
     
    
