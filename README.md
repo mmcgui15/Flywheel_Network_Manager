@@ -6,6 +6,10 @@ Software designed to manage a network of flywheels intended to store excess grid
 Front end implemented using Dear ImGui.
 To run this program, first clone the Dear Imgui repository at https://github.com/ocornut/imgui. 
 Add Flywheel_Network_Manager files as dependencies, replacing ImGUI's main.cpp with the one in this repo.
+Most of main.cpp is backend rendering code that has not been changed from the examples in the ImGui repo.
+
+This file is configured to run on Directx12 for windows, though can very easily be converted to any other platform
+in the backend folder of ImGui.
 
 
 The network manager is designed to handle multiple flywheels, though it is currently set up to handle only 
